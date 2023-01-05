@@ -6,7 +6,6 @@ def the_first():
 
 
 def the_second():
-    flag = True
     for i in range(3):
         for j in range(3):
             if i == j:
@@ -51,7 +50,6 @@ def the_seventh():
 
 
 def the_eighth():
-    import math as m
     n = 5
     center = n // 2 + 1
     count = 0
@@ -71,5 +69,3 @@ def the_ninth():
         for j in range(i):
             print(i, end='')
         print()
-
-
